@@ -1,0 +1,28 @@
+
+/* RESET TOTALE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FONT SETUP */
+
+/* Utilizzare i do do   "TODO",
+        "FIXME",
+        "BUG",
+        "NOTE",
+        "HACK",
+        "REVIEW",
+        "MARK"
+ */
+
+/* Font SETUP */
+* {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.fa-solid.fa-chevron-up {
+    font-size: 10px;
+}
