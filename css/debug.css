@@ -8,3 +8,18 @@
 .debug > .post-header-container {
     border: 1px dashed rgb(38, 0, 7);
 }
+
+.debug > .post-header-container > .post-header-internal-container {
+    border: 1px dashed rgb(38, 0, 7);
+}
+
+
+.debug > .post-header-title-container .post-header-img-container .post-header-text-container25 {
+    border: 1px dashed rgb(38, 0, 7);
+}
+
+/* 2. DEBUG */
+
+.debug > .section-container-due {
+    border: 1px dashed rgb(38, 0, 7);
+}

@@ -10,20 +10,42 @@ header div > a {
 }
 
 .bottone.header {
-    height: 26px;
+    height: 35px;
     width: 60px;
     color: white;
     transition: 1s;
+    border-radius: 50px;
 }
-.bottone.header > a {
+.bottone > a {
     color: white;
-    transition: 1s;
+    transition: .5s;
 }
 .bottone:hover {
     background-color: rgb(117, 182, 252);
     color: black;
 }
-.bottone:hover > a{
-    background-color: rgb(117, 182, 252);
+.bottone:hover > a {
+    background-color: rgba(117, 182, 252, 0);
     color: black;
 }
+
+/* 1.  */
+
+.post-header-title-container > h1 { 
+    font-size: 63px;
+}
+
+.post-header-container div > a {
+    text-decoration: none;
+}
+
+.post-header-container > .post-header-internal-container > .hero-container > div {
+    font-size: 14px;
+}
+
+.fa.fa-arrow-down {
+    font-size: 35px;
+    margin-top: 43px;
+}
+
+/* 2. */

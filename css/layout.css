@@ -26,7 +26,7 @@ header > .header-container-due {
 }
 
 header > .header-container-due > div:nth-child(n+1) {
-    padding: 3px;
+    padding: 7px;
 }
 
 .bottone {
@@ -34,8 +34,55 @@ header > .header-container-due > div:nth-child(n+1) {
     justify-content: center;
 }
 
-/* POST HEADER 2. */
+/* POST HEADER 1. */
 .post-header-container {
     min-height: 550px;
     background-color: rgb(112, 174, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body > .post-header-container > .post-header-internal-container {
+    height: 400px;
+    width: 44%;
+
+}
+
+.post-header-title-container {
+    height: calc(100% / 2);
+}
+
+.post-header-text-container25 {
+    height: calc(100% / 4);
+}
+
+
+.post-header-img-container {
+    height: calc(100% / 4);
+}
+.post-header-img-container > img {
+    width: 129%;
+
+}
+
+.hero-container {
+    display: flex;
+}
+
+.bottone.hero {
+    width: 53%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+}
+
+.post-header-container > .post-header-internal-container > .hero-container > .post-header-text-container > div:nth-child(n+2) {
+    margin-top: 20px;
+}
+
+/* 2. */
+.section-container-due {
+    min-height: 550px;
 }
