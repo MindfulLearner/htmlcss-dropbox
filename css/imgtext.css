@@ -49,3 +49,15 @@ header div > a {
 }
 
 /* 2. */
+
+.costo::before {
+    content: "$";
+}
+
+.piani-container > div {
+    font-size: 14px;
+}
+
+.months {
+    color: rgb(147, 147, 147);
+}

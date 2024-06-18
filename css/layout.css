@@ -82,7 +82,81 @@ body > .post-header-container > .post-header-internal-container {
     margin-top: 20px;
 }
 
+
 /* 2. */
 .section-container-due {
-    min-height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 1200px;
+}
+.section-internal-container-due{
+    min-height: 800px;
+    width: 43%;
+    
+}
+
+.marginaligner {
+    margin: 0 auto;
+    width: 94%;
+}
+
+.section-due-title {
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.section-due-invoice {
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.section-container-due  .section-internal-container-due  .section-due-invoice  #fatturazione-radio > div {
+    display: flex;
+}
+
+#fatturazione-radio {
+    display: flex;
+    gap: 20px;
+}
+#mensile {
+    margin-right: 10px;
+}
+
+/* container piani */
+.piani-container {
+    display: flex;
+    gap: 10px;
+}
+.piano-riga-uno {
+    width: calc((100% / 3)) ;
+    height: 500px;
+    border: 1px solid rgb(226, 226, 226);
+
+
+}
+
+
+
+.choise {
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    width: 100%;
+    height: 35px;
+    gap: 5px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.marginaligner-piano-riga {
+    width: 78%;
+    margin: 0 auto;
+}
+
+.blocco-professional {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
