@@ -1,0 +1,10 @@
+/* DEBUG */
+
+/* HEADER DEBUG */
+.debug > header {
+    border: 1px dashed rgb(38, 0, 7);
+}
+
+.debug > .post-header-container {
+    border: 1px dashed rgb(38, 0, 7);
+}

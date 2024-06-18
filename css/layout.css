@@ -1,0 +1,41 @@
+/* CSS */
+
+/* 1. HEADER */
+header {
+    min-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    align-items: center;
+}
+
+header > .header-container-uno {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+
+header > .header-container-uno > div:nth-last-child(-n+3) {
+    padding: 3px;
+}
+
+header > .header-container-due {
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+}
+
+header > .header-container-due > div:nth-child(n+1) {
+    padding: 3px;
+}
+
+.bottone {
+    display: flex;
+    justify-content: center;
+}
+
+/* POST HEADER 2. */
+.post-header-container {
+    min-height: 550px;
+    background-color: rgb(112, 174, 255);
+}
