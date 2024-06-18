@@ -16,3 +16,6 @@ Non lavoriamo ancora sul responsive, quindi la nostra pagina non deve adattarsi 
 - i quadrati  grandi con vh o % vedere un po .
 
 -FONT DA USARE OPEN SANS
+
+## Considerazioni mie per ora:
+- avrei potuto mettere in minheight molti mini container in modo che se dovesse sbrodare qualcosa non si vedrebbe, esempio se non ci fosse un div un testo, il blocco sotto passa sopra e quindi non sarebbero allineate certe cose.

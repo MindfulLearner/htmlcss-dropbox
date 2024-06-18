@@ -55,9 +55,23 @@ header div > a {
 }
 
 .piani-container > div {
-    font-size: 14px;
+    font-size: 11px;
 }
 
 .months {
     color: rgb(147, 147, 147);
+}
+
+
+
+.fa-solid.fa-cloud {
+    font-size: 9px;
+}
+
+.bottone.piano > a{
+    text-decoration: none;
+}
+
+.punti-salienti > div > i {
+    color: rgb(0, 21, 255);
 }

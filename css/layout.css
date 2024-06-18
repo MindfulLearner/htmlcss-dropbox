@@ -91,7 +91,7 @@ body > .post-header-container > .post-header-internal-container {
     min-height: 1200px;
 }
 .section-internal-container-due{
-    min-height: 800px;
+    min-height: 1000px;
     width: 43%;
     
 }
@@ -132,7 +132,7 @@ body > .post-header-container > .post-header-internal-container {
 }
 .piano-riga-uno {
     width: calc((100% / 3)) ;
-    height: 500px;
+    height: 617px;
     border: 1px solid rgb(226, 226, 226);
 
 
@@ -158,5 +158,57 @@ body > .post-header-container > .post-header-internal-container {
 .blocco-professional {
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.blocco-funzionalita {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.blocco-funzionalita > div {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+.blocco-acquisti {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.blocco-acquisti > div:nth-child(2) {
+    display: flex;
+    gap: 5px;
+}
+
+.bottone.piano {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 31px;
+}
+
+.piani-container > div > div.marginaligner-piano-riga > hr {
+    margin-top: 20px;
+    width: 25%;
+}
+
+.punti-salienti{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.punti-salienti > div {
+    display: flex;
+    align-items: baseline;
     gap: 10px;
 }
