@@ -20,10 +20,11 @@
 
 /* 2. DEBUG */
 
-.debug > .section-container-due {
+.debug > section.section-container-due > .section-internal-container-due-tre-quattro { 
     border: 1px dashed rgb(38, 0, 7);
 }
 
 .debug > .section-container-due > .section-internal-container-due{
     border: 1px dashed rgb(38, 0, 7);
 }
+

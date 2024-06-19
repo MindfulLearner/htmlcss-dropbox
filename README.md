@@ -19,3 +19,10 @@ Non lavoriamo ancora sul responsive, quindi la nostra pagina non deve adattarsi 
 
 ## Considerazioni mie per ora:
 - avrei potuto mettere in minheight molti mini container in modo che se dovesse sbrodare qualcosa non si vedrebbe, esempio se non ci fosse un div un testo, il blocco sotto passa sopra e quindi non sarebbero allineate certe cose.
+- UL E LI?  meglio di div? capire capire
+- PROBLEMA MOLTO GRAVE utilizzo dei nomi ".section-internal-container-due" continene  2 sezion che ho sistemato tramite il cambio di nomi in  .section-internal-container-due-tre-quattro
+
+
+
+    align-items: center;
+da sistemare su section-container-due

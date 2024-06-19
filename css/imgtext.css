@@ -75,3 +75,15 @@ header div > a {
 .punti-salienti > div > i {
     color: rgb(0, 21, 255);
 }
+
+.enterprise-plan-container > div {
+    font-size:11px;
+}
+
+div.enterprise-plan-container > div.enterprise-title-aligner > div > div:nth-child(1) > div > a {
+    text-decoration: none;
+}
+
+div.enterprise-title-aligner > div > div:nth-child(2) {
+    width: 60%;
+}

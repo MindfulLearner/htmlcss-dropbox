@@ -87,12 +87,12 @@ body > .post-header-container > .post-header-internal-container {
 .section-container-due {
     display: flex;
     justify-content: center;
-    align-items: center;
-    min-height: 1200px;
+    min-height: 5000px;
 }
-.section-internal-container-due{
-    min-height: 1000px;
+.section-internal-container-due-tre-quattro{
+    min-height: 3000px;
     width: 43%;
+    margin-top: 50px;
     
 }
 
@@ -113,7 +113,7 @@ body > .post-header-container > .post-header-internal-container {
     align-items: center;
 }
 
-.section-container-due  .section-internal-container-due  .section-due-invoice  #fatturazione-radio > div {
+.section-container-due  .section-internal-container-due-tre-quattro  .section-due-invoice  #fatturazione-radio > div {
     display: flex;
 }
 
@@ -128,7 +128,7 @@ body > .post-header-container > .post-header-internal-container {
 /* container piani */
 .piani-container {
     display: flex;
-    gap: 10px;
+    gap: 40px;
 }
 .piano-riga-uno {
     width: calc((100% / 3)) ;
@@ -211,4 +211,50 @@ body > .post-header-container > .post-header-internal-container {
     display: flex;
     align-items: baseline;
     gap: 10px;
+}
+
+.enterprise-plan-container {
+    width: 100%;
+    height: 180px;
+    border: 1px solid rgb(226, 226, 226);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+.enterprise-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 26px;
+    gap: 5px;
+    border-bottom: 1px solid rgb(226, 226, 226);
+}
+
+.enterprise-title-aligner {
+    width: 93%;
+    margin: 0 auto;
+}
+
+.bottone.contatto {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 26px;
+}
+
+div.enterprise-plan-container > div.enterprise-title-aligner > div > div >  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+div.enterprise-plan-container > div.enterprise-title-aligner > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: calc(180px - 26px)
 }
