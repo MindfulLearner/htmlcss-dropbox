@@ -87,10 +87,10 @@ body > .post-header-container > .post-header-internal-container {
 .section-container-due {
     display: flex;
     justify-content: center;
-    min-height: 5000px;
+    min-height: 200px;
 }
 .section-internal-container-due-tre-quattro{
-    min-height: 3000px;
+    min-height: 200px;
     width: 43%;
     margin-top: 50px;
     
@@ -258,3 +258,91 @@ div.enterprise-plan-container > div.enterprise-title-aligner > div {
     justify-content: space-around;
     height: calc(180px - 26px)
 }
+
+.img-partner {
+    width: 60%;
+
+}
+.img-partner > img{
+    width: 100%;
+}
+
+body > section.section-container-due > div > div > div:nth-child(5) {
+    display: flex;
+    gap: 45px;
+    margin-bottom: 50px;
+}
+
+.text-img-container {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 90px;
+}
+
+.bottone-partner {
+    display: flex;
+    justify-content: center;
+    border: 1px solid grey;
+    width: 140px;
+    height: 40px;
+    padding: 8px;
+}
+
+.section-container-due > div > div > h2 {
+    margin-bottom: 50px;
+}
+
+
+.card-container {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-box {
+    width: calc((100% / 3) - 13.4px);
+    min-height: 200px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card-box > .card-img-container {
+    
+    width: 100%;
+}
+
+.card-box > .card-img-container > img {
+    width: 100%;
+}
+
+
+
+body > section.section-container-due > div > div > div.card-container > div > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* <!-- 4.5 titolino e scopri di piu --> */
+
+
+body > section.section-container-due > div > div > div:nth-child(8) {
+    margin-top: 90px;
+    margin-bottom: 70px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+body > section.section-container-due > div > div > div:nth-child(8) > h2 {
+    width: 55%;
+}
+
+.scopribusiness {
+    font-size: 15px;
+}
+
+/* <!-- 5. quadrati quadrati  --> */

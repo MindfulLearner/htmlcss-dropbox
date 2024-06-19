@@ -28,3 +28,6 @@
     border: 1px dashed rgb(38, 0, 7);
 }
 
+.debug > section.section-container-due > div > div > div.card-container > div {
+    border: 1px dashed rgb(38, 0, 7);
+}
