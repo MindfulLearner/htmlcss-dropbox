@@ -26,3 +26,5 @@ Non lavoriamo ancora sul responsive, quindi la nostra pagina non deve adattarsi 
 
     align-items: center;
 da sistemare su section-container-due
+
+il margin 0 auto su tutta la pagina mhm??

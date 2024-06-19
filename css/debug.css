@@ -31,3 +31,16 @@
 .debug > section.section-container-due > div > div > div.card-container > div {
     border: 1px dashed rgb(38, 0, 7);
 }
+
+.debug > .container-quadrati {
+    border: 1px dashed rgb(38, 0, 7);
+}
+
+.debug > .container-quadrati > .quadrato-grande {
+    border: 1px dashed rgb(38, 0, 7);
+}
+
+.debug > .container-quadrati > .quadrato-grande > .quadrato-piccolo {
+
+    border: 1px dashed rgb(38, 0, 7);
+}

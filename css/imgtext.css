@@ -104,3 +104,56 @@ body > section.section-container-due > div > div > div.card-container > div > di
     font-size: 13px;
 }
 
+
+
+body > div > div:nth-child(1) > div.quadrato-piccolo.designit {
+    background-color: #a8e6ce;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body > div > div:nth-child(1) > div.quadrato-piccolo.designit > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(180% / 2);
+    height: calc(90vw / 6);
+    background-color: #8fffd4;
+}
+
+body > div > div:nth-child(1) > div.quadrato-piccolo.asu{
+    background-color: #DCEDC2;
+}
+
+body > div > div:nth-child(1) > div.quadrato-piccolo.uf {
+    background-color: #FFD3B5;
+}
+
+body > div > div:nth-child(1) > div.quadrato-piccolo.topps {
+    background-color: #FFAAA6;
+}
+
+body > div > div:nth-child(3) > div.quadrato-piccolo.bicycle {
+    background-color: #FE4365;
+}
+
+body > div > div:nth-child(3) > div.quadrato-piccolo.hearst {
+    background-color: #FC9D9A;
+}
+
+body > div > div:nth-child(3) > div.quadrato-piccolo.lonely {
+    background-color: #F9CDAD;
+}
+
+body > div > div:nth-child(3) > div.quadrato-piccolo.clear {
+    background-color: #C8C8A9;
+}
+
+body > div.container-sette > div > div > div.layoutContainer.righeColonne {
+    color: white;
+}
+
+body > div.container-sette > div > div > div.layoutContainer.righeColonne > div > ul > li {
+    font-size: 14px;
+}

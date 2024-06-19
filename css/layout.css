@@ -346,3 +346,195 @@ body > section.section-container-due > div > div > div:nth-child(8) > h2 {
 }
 
 /* <!-- 5. quadrati quadrati  --> */
+
+.container-quadrati {
+    display: flex;
+    width: 100%;
+}
+
+.quadrato-grande {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+ 
+
+ .quadrato-piccolo {
+    width: calc(100% / 2);
+    height: calc(100vw / 6)
+ }
+
+ .container-quadrati > .quadrato-grande > .quadrato-piccolo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-quadrati > .quadrato-grande > .quadrato-piccolo  img {
+    width: 50%;
+    filter: brightness(0) invert(1);
+}
+
+.quadrato-grande.company {
+    display: flex;
+    justify-content: center;
+}
+
+.quadrato-grande-marginaligner {
+    margin-top: 40px;
+    width: 80%;
+    display: flex; 
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+body > div > div.quadrato-grande.company > div > div.imgsize {
+    width: 50%;
+}
+body > div > div.quadrato-grande.company > div > div.imgsize > div > img {
+    width: 100%;
+}
+
+body > div > div.quadrato-grande.company > div > hr {
+    width: 30%;
+}
+
+body > div > div.quadrato-grande.company > div > div:nth-child(n+3) {
+    font-size: 14px;
+}
+
+.container-cinque-cinque {
+    min-height: 250px;
+    background-color: rgb(172, 227, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 250px
+}
+
+body > div.container-cinque-cinque > div:nth-child(1) {
+    width: 18%;
+}
+
+.bottone.inizia{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 31px;
+    width: 12%;
+    background-color: rgb(255, 255, 255);
+}
+
+.bottone.inizia > a {
+    color: rgb(0, 0, 0);
+    transition: .5s;
+    background-color: rgb(255, 255, 255);
+    
+    text-decoration: none;
+}
+.bottone.inizia:hover {
+    background-color: rgb(0, 136, 234);
+}
+.bottone.inizia:hover > a {
+    background-color: rgba(175, 175, 175, 0);
+}
+
+.container-sei {
+    min-height: 500px;
+    margin: 0 auto;
+    width: 43%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+body > div.container-sei > div > h2 {
+    margin-bottom: 15px;
+}
+
+body > div.container-sei > div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+body > div.container-sei > div > div {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* container 7 */
+
+.container-sette {
+    background-color: rgb(17, 17, 17);
+}
+
+
+.container-sette-textalign {
+    min-height: 250px;
+    margin: 0 auto;
+    width: 43%;
+    margin-top: 40px;
+}
+
+
+.layoutBlock.Footer {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.layoutBlock.Footer > .layoutContainer.righeColonne {
+min-height: 200px;
+justify-content: space-around;
+
+max-width: 1000px;
+}
+
+.layoutBlock.Footer > .layoutContainer.righeColonne > div{
+min-height: 200px;
+}
+
+.footerEnd {
+display: flex;
+}
+
+.layoutBlock.Footer >  .layoutContainer.righeColonne > div > ul {
+    list-style: none;
+    display: inline;
+}
+
+.layoutBlock.Footer >  .layoutContainer.righeColonne > div > ul > .titoloLi {
+    color: white;
+}
+
+.layoutBlock.Footer >  .layoutContainer.righeColonne > div > ul > li {
+   margin-bottom: 20px;
+}
+
+.footerEnd > .headerReg {
+    min-height: 30px;
+    color: white;
+    font-size: 12px;
+    margin-left: 12px;
+   
+}
+
+body > div.container-sette > div > div > div.layoutContainer.righeColonne {
+    display: flex;
+    flex-direction: row;
+}
+
+body > div.container-sette > div > div > hr {
+    width: 15%;
+    border-color: grey;
+}
